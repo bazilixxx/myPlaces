@@ -13,6 +13,8 @@
 		B86FBE5922F2DB0F00A5B9E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86FBE5722F2DB0F00A5B9E8 /* LaunchScreen.storyboard */; };
 		B86FBE6122F2DB9100A5B9E8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FBE6022F2DB9100A5B9E8 /* MainViewController.swift */; };
 		B86FBE6322F305AC00A5B9E8 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FBE6222F305AC00A5B9E8 /* CustomTableViewCell.swift */; };
+		B86FBE6522F310F600A5B9E8 /* placeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FBE6422F310F600A5B9E8 /* placeModel.swift */; };
+		B86FBE6722F3483C00A5B9E8 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FBE6622F3483C00A5B9E8 /* NewPlaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B86FBE5A22F2DB0F00A5B9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B86FBE6022F2DB9100A5B9E8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B86FBE6222F305AC00A5B9E8 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		B86FBE6422F310F600A5B9E8 /* placeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeModel.swift; sourceTree = "<group>"; };
+		B86FBE6622F3483C00A5B9E8 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				B86FBE4E22F2DB0E00A5B9E8 /* AppDelegate.swift */,
 				B86FBE6022F2DB9100A5B9E8 /* MainViewController.swift */,
 				B86FBE6222F305AC00A5B9E8 /* CustomTableViewCell.swift */,
+				B86FBE6422F310F600A5B9E8 /* placeModel.swift */,
+				B86FBE6622F3483C00A5B9E8 /* NewPlaceViewController.swift */,
 				B86FBE5222F2DB0E00A5B9E8 /* Main.storyboard */,
 				B86FBE5522F2DB0F00A5B9E8 /* Assets.xcassets */,
 				B86FBE5722F2DB0F00A5B9E8 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86FBE6322F305AC00A5B9E8 /* CustomTableViewCell.swift in Sources */,
+				B86FBE6522F310F600A5B9E8 /* placeModel.swift in Sources */,
+				B86FBE6722F3483C00A5B9E8 /* NewPlaceViewController.swift in Sources */,
 				B86FBE4F22F2DB0E00A5B9E8 /* AppDelegate.swift in Sources */,
 				B86FBE6122F2DB9100A5B9E8 /* MainViewController.swift in Sources */,
 			);
@@ -287,13 +295,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MX4RJ7L45L;
+				DEVELOPMENT_TEAM = 5V36S3Y56T;
 				INFOPLIST_FILE = myPlaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bazz.example.myPlaces;
+				PRODUCT_BUNDLE_IDENTIFIER = bazz.example.myPlacess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,13 +313,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MX4RJ7L45L;
+				DEVELOPMENT_TEAM = 5V36S3Y56T;
 				INFOPLIST_FILE = myPlaces/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bazz.example.myPlaces;
+				PRODUCT_BUNDLE_IDENTIFIER = bazz.example.myPlacess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
