@@ -2,9 +2,11 @@ import UIKit
 
 class NewPlaceViewController: UITableViewController {
 
+    var currentPlace: Place?
     var imageIsChanged = false
     
     @IBOutlet var saveButton: UIBarButtonItem!
+    
     @IBOutlet var placeImage: UIImageView!
     @IBOutlet var placeName: UITextField!
     @IBOutlet var placeLocation: UITextField!
@@ -75,6 +77,8 @@ class NewPlaceViewController: UITableViewController {
         StorageManager.savedObject(newPlace)
 
    }
+    
+    
     
     @IBAction func cancelAction(_ sender: Any) {
         dismiss(animated: true)
