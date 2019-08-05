@@ -1,11 +1,3 @@
-//
-//  RatingControl.swift
-//  myPlaces
-//
-//  Created by Punchman on 04/08/2019.
-//  Copyright © 2019 bazilixxx. All rights reserved.
-//
-
 import UIKit
 
 @IBDesignable class RatingControl: UIStackView {

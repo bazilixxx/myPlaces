@@ -55,12 +55,6 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         let place = isFiltering ? filterPlaces[indexPath.row] : places[indexPath.row]
         
-//        if isFiltering {
-//            place = filterPlaces[indexPath.row]
-//        } else {
-//            place = places[indexPath.row]
-//        }
-
         cell.nameLabel.text = place.name
         cell.locationLabel.text = place.location
         cell.typeLabel.text = place.type
@@ -90,11 +84,6 @@ class MainViewController: UIViewController, UITableViewDataSource, UITableViewDe
             
             let place = isFiltering ? filterPlaces[indexPath.row] : places[indexPath.row]
             
-//            if isFiltering {
-//                place = filterPlaces[indexPath.row]
-//            } else {
-//                place = places[indexPath.row]
-//            }
             let newPlaceVC = segue.destination as! NewPlaceViewController
             newPlaceVC.currentPlace = place
         }

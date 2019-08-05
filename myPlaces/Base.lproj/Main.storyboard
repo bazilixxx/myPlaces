@@ -188,7 +188,7 @@
                             <outlet property="delegate" destination="fA1-WV-nSE" id="6Cn-8h-5ta"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="New Place" largeTitleDisplayMode="always" id="pw9-fU-nqF">
+                    <navigationItem key="navigationItem" title="New Place" largeTitleDisplayMode="never" id="pw9-fU-nqF">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="cPa-7Q-EMv">
                             <connections>
                                 <action selector="cancelAction:" destination="fA1-WV-nSE" id="MqZ-bO-sYP"/>
@@ -248,6 +248,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yYR-9F-eXn"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="VyB-8p-t5M" id="LY4-eU-2ko"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="koa-y8-zPV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
