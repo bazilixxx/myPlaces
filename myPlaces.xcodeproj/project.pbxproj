@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9FDE991D7142909D013BD515 /* Pods_myPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4BDD67CDB9F5306A9EADD1D /* Pods_myPlaces.framework */; };
+		B85905B422F7B594007C73E8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85905B322F7B594007C73E8 /* MapViewController.swift */; };
 		B86FBE4F22F2DB0E00A5B9E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FBE4E22F2DB0E00A5B9E8 /* AppDelegate.swift */; };
 		B86FBE5422F2DB0E00A5B9E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86FBE5222F2DB0E00A5B9E8 /* Main.storyboard */; };
 		B86FBE5622F2DB0F00A5B9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86FBE5522F2DB0F00A5B9E8 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		1213FB676CBD6165CF6A5CD7 /* Pods-myPlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlaces.release.xcconfig"; path = "Target Support Files/Pods-myPlaces/Pods-myPlaces.release.xcconfig"; sourceTree = "<group>"; };
 		B4BDD67CDB9F5306A9EADD1D /* Pods_myPlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myPlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85905B322F7B594007C73E8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		B86FBE4B22F2DB0E00A5B9E8 /* myPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86FBE4E22F2DB0E00A5B9E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B86FBE5322F2DB0E00A5B9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,9 +92,10 @@
 			children = (
 				B86FBE4E22F2DB0E00A5B9E8 /* AppDelegate.swift */,
 				B86FBE6022F2DB9100A5B9E8 /* MainViewController.swift */,
+				B85905B322F7B594007C73E8 /* MapViewController.swift */,
+				B86FBE6622F3483C00A5B9E8 /* NewPlaceViewController.swift */,
 				B86FBE6422F310F600A5B9E8 /* placeModel.swift */,
 				B86FBE6822F4D2C800A5B9E8 /* StorageManager.swift */,
-				B86FBE6622F3483C00A5B9E8 /* NewPlaceViewController.swift */,
 				B86FBE6222F305AC00A5B9E8 /* CustomTableViewCell.swift */,
 				B86FBE6A22F71AD000A5B9E8 /* RatingControl.swift */,
 				B86FBE5222F2DB0E00A5B9E8 /* Main.storyboard */,
@@ -225,6 +228,7 @@
 				B86FBE6922F4D2C800A5B9E8 /* StorageManager.swift in Sources */,
 				B86FBE4F22F2DB0E00A5B9E8 /* AppDelegate.swift in Sources */,
 				B86FBE6122F2DB9100A5B9E8 /* MainViewController.swift in Sources */,
+				B85905B422F7B594007C73E8 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
