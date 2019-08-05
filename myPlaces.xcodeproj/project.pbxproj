@@ -17,6 +17,7 @@
 		B86FBE6522F310F600A5B9E8 /* placeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FBE6422F310F600A5B9E8 /* placeModel.swift */; };
 		B86FBE6722F3483C00A5B9E8 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FBE6622F3483C00A5B9E8 /* NewPlaceViewController.swift */; };
 		B86FBE6922F4D2C800A5B9E8 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FBE6822F4D2C800A5B9E8 /* StorageManager.swift */; };
+		B86FBE6B22F71AD000A5B9E8 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FBE6A22F71AD000A5B9E8 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		B86FBE6422F310F600A5B9E8 /* placeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeModel.swift; sourceTree = "<group>"; };
 		B86FBE6622F3483C00A5B9E8 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 		B86FBE6822F4D2C800A5B9E8 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		B86FBE6A22F71AD000A5B9E8 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		F54BCB277A9EC3B25756A23F /* Pods-myPlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlaces.debug.xcconfig"; path = "Target Support Files/Pods-myPlaces/Pods-myPlaces.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,10 +90,11 @@
 			children = (
 				B86FBE4E22F2DB0E00A5B9E8 /* AppDelegate.swift */,
 				B86FBE6022F2DB9100A5B9E8 /* MainViewController.swift */,
-				B86FBE6222F305AC00A5B9E8 /* CustomTableViewCell.swift */,
 				B86FBE6422F310F600A5B9E8 /* placeModel.swift */,
 				B86FBE6822F4D2C800A5B9E8 /* StorageManager.swift */,
 				B86FBE6622F3483C00A5B9E8 /* NewPlaceViewController.swift */,
+				B86FBE6222F305AC00A5B9E8 /* CustomTableViewCell.swift */,
+				B86FBE6A22F71AD000A5B9E8 /* RatingControl.swift */,
 				B86FBE5222F2DB0E00A5B9E8 /* Main.storyboard */,
 				B86FBE5522F2DB0F00A5B9E8 /* Assets.xcassets */,
 				B86FBE5722F2DB0F00A5B9E8 /* LaunchScreen.storyboard */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86FBE6B22F71AD000A5B9E8 /* RatingControl.swift in Sources */,
 				B86FBE6322F305AC00A5B9E8 /* CustomTableViewCell.swift in Sources */,
 				B86FBE6522F310F600A5B9E8 /* placeModel.swift in Sources */,
 				B86FBE6722F3483C00A5B9E8 /* NewPlaceViewController.swift in Sources */,
